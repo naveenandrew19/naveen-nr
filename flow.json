@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "22f8649a01443f5b",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "20bddb8da7a9e288",
         "type": "function",
         "z": "b5da049cc7b2c5e4",
@@ -76,7 +84,8 @@
         "y": 200,
         "wires": [
             [
-                "35e153480e730f48"
+                "35e153480e730f48",
+                "878d7caaa333f771"
             ]
         ]
     },
@@ -97,12 +106,22 @@
         "wires": []
     },
     {
-        "id": "22f8649a01443f5b",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": "",
-        "env": []
+        "id": "878d7caaa333f771",
+        "type": "range",
+        "z": "b5da049cc7b2c5e4",
+        "minin": "",
+        "maxin": "",
+        "minout": "",
+        "maxout": "",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 730,
+        "y": 280,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "beeb3266cdc00f45",
