@@ -18,8 +18,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 80,
+        "x": 320,
+        "y": 140,
         "wires": [
             [
                 "f9a029b380fdfb6b"
@@ -73,7 +73,7 @@
         "repair": false,
         "outputs": 1,
         "x": 490,
-        "y": 160,
+        "y": 140,
         "wires": [
             [
                 "35e153480e730f48"
@@ -92,7 +92,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 680,
+        "x": 660,
         "y": 140,
         "wires": []
     }
